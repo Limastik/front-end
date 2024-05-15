@@ -1,0 +1,34 @@
+*{
+text-decoration: underline;
+}
+p{
+background-color: yellow;
+}
+h3, h4{
+    color: rgb(238, 184, 36);    
+    background-color: black;
+}
+span{
+    color: blueviolet;
+}
+p span{
+color: darkgreen;
+}
+#bottom{
+    background-color: purple;
+    color:white
+}
+.text-card.big{
+font-size: 20px;
+
+}
+ul li:first-child{
+    background-color: yellow;
+}
+ul li:last-child{
+    background-color: rgb(59, 202, 107);
+}
+ul li:nth-child(3){
+    background-color: green;
+}
+
