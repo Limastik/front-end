@@ -1,5 +1,4 @@
 body{
-
     background-color: pink;
 }
 .box{
@@ -7,138 +6,155 @@ background-color: rgb(255, 255, 255);
 border-radius: 20px; 
 width: 400px;
 height:820px;
-position: relative;
-    top: 10%;
-    left: 50%;
-    margin: 5px 0 0 -175px;
+margin: 0 auto;
 }
 .d1 {
     background-color: rgb(255, 255, 255);
-    position: relative; 
+    border-radius: 20px; 
 }
-
+.Foods
+{
+    padding-left: 6px;
+    padding-top: 8px;
+}
 .d1 input {
     width: 300px;
     height: 42px;
-    padding-right: 10px;
     border: 2px solid rgb(247, 247, 247);
     border-radius: 10px; 
     color: rgb(59, 59, 59);
     background-color: rgb(226, 223, 223);
-    position: relative;
-    top: 100px; 
-    left: 40px;
+    margin-left: 2em;
+
 }
-.Burger {
-    font-family:Bradley Hand, cursive;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 35.73px;
-    width: 150px;
-    position: relative;
-        top: 290px; 
-        left: 50px;
+.Food-Block
+{
+    display: inline-block;
 }
-.burger-class {
+
+.Drinks-Block
+{
+    display: inline-block;
+}
+
+.Desert-Block
+{
+    display: inline-block;
+}
+
+.Big-Mac-Box {
     background-color: rgb(255, 255, 255);
     box-shadow: 0px -1px 10px 0px rgb(185, 184, 184);
     border-radius: 20px; 
-    width: 300px;
-    height:90px;
-    position: relative;
-        top: 35%;
-        left: 54%;
-        margin: 10px 0 0 -175px;
+    margin-top: 23px ;
+    margin-left: 5px;
+}
+
+.KFC-Double-Box {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px -1px 10px 0px rgb(185, 184, 184);
+    border-radius: 20px; 
+    margin-top: 23px ;
+    margin-left: 5px;
+
+}
+.Fish-Burger-Box {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px -1px 10px 0px rgb(185, 184, 184);
+    border-radius: 20px; 
+    margin-top: 23px ;
+    margin-left: 5px;
 }
 .Menu{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 50px;
     font-weight: 400;
-    line-height: 35.73px;
-    padding-left: 20px;
-    position: absolute;
-    top:105px;
+    padding-left: 0.5em;
 }
 .Food {
-font-family:Andale Mono, monospace;
-font-size: 20px;
-font-weight: 400;
-line-height: 35.73px;
-width: 40px;
-position: absolute;
-    top: 350px; 
-    left: 70px;
-    }
-    .menu-selector {
-        font-family: Andale Mono, monospace;
-        font-size: 20px;
-        font-weight: 800;
-        top: 350px;
-        left: 13px;
-        line-height: 22.73px;
-        word-break: normal;
-        position: relative; 
-        margin: 20px auto; 
-        display: flex;
-        flex-direction: row;
-        gap: 50px;
-        justify-content: center; 
-    }
-    
+    font-family:Andale Mono, monospace;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.Drinks {
+    font-family:Andale Mono, monospace;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.Desert {
+    font-family:Andale Mono, monospace;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.Burger {
+    font-family:Bradley Hand, cursive;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 1em;
+}
+
+.Main-Burger {
+    margin: 0 auto;
+}
+.Names {
+    display: inline-block;
+}
 
 .Price{
     font-family:Gill Sans, sans-serif;
     color: red;
     font-size: 14px;
     font-weight: 350;
-    line-height: 35.73px;
-    width: 80px;
-    position: absolute;
-        top: 10px; 
-        left: 110px;
-}
+    border-radius: 20px; 
+    
+}   
 .Burger-name{
     font-family:Bradley Hand, cursive;
     font-size: 20px;
     font-weight: 400;
-    line-height: 35.73px;
-    width: 150px;
-    position: relative;
-        top: 10px; 
-        left: 110px;
+    display: inline-block;
 }
 img[alt="Home"] {
-    position: absolute; 
     top: 1px; 
     left: 5px; 
     width: 70px;
     height: auto;
+
 }
 img[alt="Dessert-alt"] {
-    position: absolute; 
-    top: 260px; 
-    left: 280px; 
-    width: 100px;
+    top: 250px; 
+    left: 30px; 
+    width: 120px;
     height: auto;
+
 }
 img[alt="Food-alt"] {
-    position: absolute; 
-    top: 260px; 
+    top: 250px; 
     left: 30px; 
-    width: 100px;
+    width: 120px;
     height: auto;
+
 }
 img[alt="Drinks-alt"] {
-    position: absolute; 
-    top: 260px; 
-    left: 160px; 
-    width: 100px;
+    top: 250px; 
+    left: 30px; 
+    width: 120px;
     height: auto;
+
+}
+img[alt="Food-alt"] {
+    top: 250px; 
+    left: 30px; 
+    width: 120px;
+    height: auto;
+
 }
 img[alt="Burger-img"] {
-    position: absolute; 
-    top: 10px; 
-    left: 20px; 
     width: 70px;
     height: auto;
 }
