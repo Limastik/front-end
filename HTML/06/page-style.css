@@ -7,10 +7,10 @@ background-color: rgb(255, 255, 255);
 border-radius: 20px; 
 width: 400px;
 height:820px;
-position: absolute;
-    top: 50%;
+position: relative;
+    top: 10%;
     left: 50%;
-    margin: -370px 0 0 -175px;
+    margin: 5px 0 0 -175px;
 }
 .d1 {
     background-color: rgb(255, 255, 255);
@@ -26,7 +26,7 @@ position: absolute;
     color: rgb(59, 59, 59);
     background-color: rgb(226, 223, 223);
     position: relative;
-    top: 120px; 
+    top: 100px; 
     left: 40px;
 }
 .Burger {
@@ -57,7 +57,7 @@ position: absolute;
     line-height: 35.73px;
     padding-left: 20px;
     position: absolute;
-    top:90px;
+    top:105px;
 }
 .Food {
 font-family:Andale Mono, monospace;
@@ -73,14 +73,16 @@ position: absolute;
         font-family: Andale Mono, monospace;
         font-size: 20px;
         font-weight: 800;
+        top: 350px;
+        left: 13px;
         line-height: 22.73px;
         word-break: normal;
-        position: relative;
-        top: 350px; 
-        left: 65px;
+        position: relative; 
+        margin: 20px auto; 
         display: flex;
-        flex-direction: row; 
+        flex-direction: row;
         gap: 50px;
+        justify-content: center; 
     }
     
 
