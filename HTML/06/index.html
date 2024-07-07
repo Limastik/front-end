@@ -2,62 +2,85 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Food Shop</title>
-    <link rel="stylesheet" href="page-style.css">
+    <link rel="stylesheet" href="main.css" />
 </head>
 
 <body>
-    <div class="box">
-        <img src="https://p12.com.ua/public/frontend/default/images/menu.svg" alt="Home">
-        
-        <h1 class="Menu">Menu</h1>
-        <div class="d1">
-            <form>
-                <input type="text" placeholder="Search food here">
+    <header class="header">
+        <nav class="site-nav">
+            <a href="#" class="nav-link"><img src="img/nav_icon.png" alt="nav-icon" width="25" height="20" /></a>
+        </nav>
+    </header>
+    <main>
+        <h1>Menu</h1>
+        <search>
+            <form class="search-form">
+                <input class="search-area" type="text" placeholder="Search food here" />
             </form>
-        </div>
-        <div class="Foods">
-            <div class="Food-Block">        
-                <img src="4.png" alt="Food-alt">
-                <h3 class="Food">Food</h3>
-            </div>
-            <div class="Drinks-Block">
-                <img src="https://static.vecteezy.com/system/resources/previews/027/874/128/non_2x/wine-glass-icon-in-trendy-flat-design-on-gray-background-illustration-eps-10-editable-stroke-vector.jpg"
-                alt="Drinks-alt">
-                <h3 class="Drinks">Drinks</h3>
-            </div>
-            <div class="Desert-Block">
-                <img src="https://static.vecteezy.com/system/resources/previews/035/533/670/non_2x/gelato-fruit-sorbet-icon-flat-ice-cream-soft-vector.jpg" alt="Dessert-alt">
-                <h3 class="Desert">Desert</h3>
-            </div>
-        </div>
-        <h2 class="Burger">Burger</h2>
+        </search>
+        <nav class="nav-food-menu">
+            <ul class="food-menu-list">
+                <li class="food-menu-category food-menu-category-active">
+                    <a href="#" class="category-link">
+                        <div class="food-category-wrapper">
+                            <img src="img/food_menu_icon.png" alt="Drink and burger photo" width="37" height="37" />
 
-        <div class="Main-Burger">
-        <div class="Big-Mac-Box">
-            <img src="3.png" alt="Burger-img">
-            <div class="Names">
-                <div class="Burger-name">Big Mac</div>
-                <div class="Price">Rs 240</div>    
-            </div>
-        </div>   
-        <div class="KFC-Double-Box">
-            <img src="2.png" alt="Burger-img">
-            <div class="Names">
-                <div class="Burger-name">Kfc Double</div>
-                <div class="Price">Rs 240</div>    
-            </div>
-        </div>   
-        <div class="Fish-Burger-Box">
-            <img src="1.png" alt="Burger-img">
-            <div class="Names">
-                <div class="Burger-name">Fish Burger</div>
-                <div class="Price">Rs 240</div>    
-            </div>
-        </div>
-        </div>
-    </div>  
+                        </div>
+                        <h2 class="food-category-name">Food</h2>
+                    </a>
+                </li>
+                <li class="food-menu-category">
+                    <a href="#" class="category-link">
+                        <div class="food-category-wrapper">
+                            <img src="img/drink_menu_icon.png" alt="Cocktail glass with a straw photo" width="37"
+                                height="37" />
+                        </div>
+                        <h2 class="food-category-name">Drinks</h2>
+
+                    </a>
+                </li>
+                <li class="food-menu-category">
+                    <a href="#" class="category-link">
+                        <div class="food-category-wrapper">
+                            <img src="img/dessert_menu_icon.png" alt="Ice Cream desert photo" width="37" height="37" />
+                        </div>
+                        <h2 class="food-category-name">Desert</h2>
+
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <section class="food">
+            <h2 class="">Burger</h2>
+            <article class="food-card">
+                <img src="img/Big_mac.png" alt="Big Mac Photo" class="food-photo" width="75" height="60" />
+                <div class="card-text-wrapper">
+                    <h3 class="food-name">Big Mac</h3>
+                    <p class="food-price">240</p>
+                </div>
+            </article>
+            <article class="food-card">
+                <img src="img/kfc_double.png" alt="KFC Double Photo" class="food-photo" width="75" height="60" />
+                <div class="card-text-wrapper">
+                    <h3 class="food-name">KFC Double</h3>
+                    <p class="food-price">252</p>
+                </div>
+            </article>
+            <article class="food-card">
+                <img src="img/Fish_burger.png" alt="Fish Burger photo" class="food-photo" width="75" height="60" />
+                <div class="card-text-wrapper">
+                    <h3 class="food-name">Fish Burger</h3>
+                    <p class="food-price">220</p>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer class="footer"></footer>
+
+    </footer>
 </body>
+
 </html>
