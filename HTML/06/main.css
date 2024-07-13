@@ -61,13 +61,13 @@ search {
 .food-menu-list {
   list-style: none;
   font-size: 0;
-  text-align: center;
+  text-align: start;
 }
 
 .food-menu-category {
   display: inline-block;
   height: 100px;
-  margin: 0 10px 0 10px;
+  margin: 0 20px 0 0;
 }
 
 .food-menu-category-active {
@@ -79,7 +79,7 @@ search {
   width: 74px;
   height: 74px;
   background-color: rgb(236, 236, 236);
-  border-radius: 15px;
+  border-radius: 12px;
   padding: 25%;
 }
 
@@ -96,6 +96,7 @@ search {
 .food-category-name {
   font-weight: 550;
   font-size: medium;
+  margin: 7px 0 0 0;
 }
 
 .food h2 {
@@ -108,9 +109,9 @@ search {
 
 .food-card {
   border: 1px solid rgb(235, 235, 235);
-  border-radius: 15px;
-  margin-bottom: 5px;
-  box-shadow: 0px 0px 1px 0px black;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  box-shadow: 0px 0px 4px 0px rgb(230, 230, 230);
 }
 .food-card > * {
   display: inline-block;
