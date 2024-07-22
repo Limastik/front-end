@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Shop</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+    <header class="header">
+        <nav class="site-nav">
+            <a href="#" class="nav-link"><img src="img/nav_icon.png" alt="nav-icon" width="25" height="20" /></a>
+        </nav>
+    </header>
+    <main>
+        <h1>Menu</h1>
+        <search>
+            <form class="search-form">
+                <input class="search-area" type="text" placeholder="Search food here" />
+            </form>
+        </search>
+        <nav class="nav-food-menu">
+            <ul class="food-menu-list">
+                <li class="food-menu-category food-menu-category-active">
+                    <a href="#" class="category-link">
+                        <div class="food-category-wrapper">
+                            <img src="img/food_menu_icon.png" alt="Drink and burger photo" width="37" height="37" />
+
+                        </div>
+                        <h2 class="food-category-name">Food</h2>
+                    </a>
+                </li>
+                <li class="food-menu-category">
+                    <a href="#" class="category-link">
+                        <div class="food-category-wrapper">
+                            <img src="img/drink_menu_icon.png" alt="Cocktail glass with a straw photo" width="37"
+                                height="37" />
+                        </div>
+                        <h2 class="food-category-name">Drinks</h2>
+
+                    </a>
+                </li>
+                <li class="food-menu-category">
+                    <a href="#" class="category-link">
+                        <div class="food-category-wrapper">
+                            <img src="img/dessert_menu_icon.png" alt="Ice Cream desert photo" width="37" height="37" />
+                        </div>
+                        <h2 class="food-category-name">Desert</h2>
+
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <section class="food">
+            <h2 class="">Burger</h2>
+            <article class="food-card">
+                <img src="img/Big_mac.png" alt="Big Mac Photo" class="food-photo" width="75" height="60" />
+                <div class="card-text-wrapper">
+                    <h3 class="food-name">Big Mac</h3>
+                    <p class="food-price">240</p>
+                </div>
+            </article>
+            <article class="food-card">
+                <img src="img/kfc_double.png" alt="KFC Double Photo" class="food-photo" width="75" height="60" />
+                <div class="card-text-wrapper">
+                    <h3 class="food-name">KFC Double</h3>
+                    <p class="food-price">252</p>
+                </div>
+            </article>
+            <article class="food-card">
+                <img src="img/Fish_burger.png" alt="Fish Burger photo" class="food-photo" width="75" height="60" />
+                <div class="card-text-wrapper">
+                    <h3 class="food-name">Fish Burger</h3>
+                    <p class="food-price">220</p>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer class="footer"></footer>
+
+    </footer>
+</body>
+
+</html>
