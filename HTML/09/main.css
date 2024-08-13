@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: #e5e5e5;
+  text-align: center;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Ukraine-block {
+  position: relative;
+  max-width: 150px;
+  max-height: 225px;
+  width: 100%;
+  height: 100%;
+  top: -35px;
+  left: 135px;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.yellow-square {
+  width: 225px;
+  height: 225px;
+  background-color: #ffce22;
+}
+
+.blue-square {
+  width: 225px;
+  height: 225px;
+  background-color: #2238ff;
+}
+
+.Glyph1 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 115px;
+  left: 80px;
+  transform: translate(-50%, -50%);
+}
+
+.White-square {
+  position: relative;
+  max-width: 250px;
+  max-height: 225px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 253, 253);
+  top: 140px;
+  left: 150px;
+  z-index: 0;
+  padding-top: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+}
+
+.yellow-circle {
+  width: 225px;
+  height: 225px;
+  background-color: #ffce22;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.blue-circle {
+  width: 225px;
+  height: 112.5px;
+  background-color: #2238ff;
+  border-radius: 112.5px 112.5px 0 0;
+  position: relative;
+  margin: 0 auto;
+}
+
+.Glyph2 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 145px;
+  transform: translate(-50%, -50%);
+}
+
+.Diya-block {
+  position: relative;
+  max-width: 250px;
+  max-height: 225px;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  bottom: 225px;
+  right: 500px;
+  z-index: 0;
+}
+.Diya-text {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  bottom: 175px;
+  right: 630px;
+  transform: translate(-50%, -50%);
+}
+.Ukraine-flag {
+  position: relative;
+  width: 40px;
+  height: 30px;
+  bottom: 140px;
+  right: 790px;
+  transform: translate(-50%, -50%);
+}
