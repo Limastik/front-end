@@ -8,14 +8,18 @@ html {
   text-align: center;
 }
 
-.wrapper {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
+  .wrapper {
+    position: relative;
+    width: 100%;
+    height: 800px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto; 
+  }
+  
+
 
 .Ukraine-block {
   position: relative;
@@ -105,20 +109,21 @@ html {
   bottom: 225px;
   right: 500px;
   z-index: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
 .Diya-text {
-  position: relative;
   width: 150px;
   height: 150px;
-  bottom: 175px;
-  right: 630px;
-  transform: translate(-50%, -50%);
+  margin-bottom: -10px;
 }
+
 .Ukraine-flag {
-  position: relative;
   width: 40px;
   height: 30px;
-  bottom: 140px;
-  right: 790px;
-  transform: translate(-50%, -50%);
 }
+
+
