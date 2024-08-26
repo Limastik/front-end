@@ -60,7 +60,6 @@ h3 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
-  overflow: hidden;
 }
 
 .developer-category {
@@ -72,8 +71,6 @@ h3 {
   background-color: rgb(236, 236, 236);
   border-radius: 12px;
   padding: 20px;
-  margin: 10px;
-  overflow: hidden;
 }
 
 .developer-image-class {
