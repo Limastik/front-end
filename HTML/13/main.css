@@ -1,0 +1,270 @@
+@import url(reset.css);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    background-color: #fff;
+    position: relative;
+    padding-bottom: 45px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+}
+
+body::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 118px;
+    top: 0;
+    bottom: 0;
+    left: 13%;
+    background-color: #F9F9F9;
+    z-index: -1;
+}
+
+.header-container {
+    width: 82%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 0;
+}
+
+.logo-container:hover {
+    opacity: 0.8;
+}
+
+.main-nav a {
+    display: inline-block;
+    position: relative;
+    color: #000;
+    text-decoration: none;
+    margin-right: 35px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 1px;
+}
+
+.main-nav a:last-child {
+    margin-right: 0;
+}
+
+.main-nav a::after {
+    content: "";
+    display: none;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    background-color: #F2994A;
+    position: absolute;
+    margin: 0 50%;
+    bottom: -16px;
+}
+
+.main-nav a.active::after,
+.main-nav a:hover::after {
+    display: block;
+}
+
+.search-form input {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 1px;
+    color: #000;
+    border: none;
+    padding: 0 16px;
+}
+
+.search-form button {
+    background-color: white;
+    border: none;
+}
+
+.search-form input:focus-visible {
+    outline: none;
+}
+
+.main-content {
+    padding: 110px 0 50px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-wrapper {
+    width: 35%;
+}
+
+.image-wrapper img {
+    width: 100%;
+}
+
+.text-container {
+    width: 50%;
+}
+
+.text-content {
+    padding-right: 180px;
+    border-right: 1px solid #333;
+    margin-bottom: 32px;
+}
+
+.text-content h2 {
+    position: relative;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 1px;
+    color: #F2994A;
+    margin-bottom: 10px;
+}
+
+.text-content h2::after {
+    content: "+";
+    position: absolute;
+    right: 0;
+    color: #3F9AB7;
+}
+
+.text-content h1 {
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 1px;
+    margin-bottom: 70px;
+}
+
+.text-content p {
+    padding-top: 24px;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+.text-content p::before {
+    content: "";
+    display: block;
+    border-radius: 4px;
+    background: #F2994A;
+    width: 188px;
+    height: 6px;
+    position: absolute;
+    top: 0;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+}
+
+.video-container {
+    display: flex;
+    align-items: center;
+}
+
+.video-button {
+    width: 85px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #3F9AB7;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.video-button:hover {
+    background-color: #F2994A;
+}
+
+.video-text {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 1px;
+}
+
+.social-links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    text-decoration: none;
+    background-color: transparent;
+    border-radius: 100%;
+    position: relative;
+    text-align: center;
+    right: -16px;
+    margin-bottom: 8px;
+}
+
+.social-icon-hover {
+    display: none;
+}
+
+.social-links a:hover {
+    background-color: #F2994A;
+}
+
+.social-links a:hover .social-icon-hover {
+    display: block;
+}
+
+.social-links a:hover .social-icon {
+    display: none;
+}
+
+.client-section {
+    background-color: #3F9AB7;
+    padding: 32px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-image-wrapper {
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.client-image-wrapper > img {
+    width: 100%;
+}
+
+.client-image-wrapper:nth-child(2) {
+    left: -10px;
+}
+
+.client-image-wrapper:nth-child(3) {
+    left: -20px;
+}
+
+.client-info-text {
+    color: #fff;
+}
+
+.client-info-text strong {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.client-info-text span {
+    font-size: 20px;
+    font-weight: 400;
+}

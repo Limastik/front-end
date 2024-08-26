@@ -15,14 +15,14 @@ html {
 body {
   text-align: start;
   margin-top: 90px;
-  padding: 0px 30px;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 1500px;
   min-width: 350px;
   min-height: 550px;
-  width: 1200px;
+  width: 100%;
   background: rgba(0, 161, 198, 0.05);
   border-radius: 15px;
   overflow: auto;
@@ -33,7 +33,7 @@ h1 {
   position: relative;
   bottom: 45px;
   color: rgb(45, 54, 64);
-  font-family: IBM Plex Sans;
+  font-family: "IBM Plex Sans";
   font-size: 48px;
   font-weight: 400;
   line-height: 80px;
@@ -46,7 +46,7 @@ h3 {
   max-width: 695px;
   height: 80px;
   color: rgb(43, 41, 45);
-  font-family: IBM Plex Sans;
+  font-family: "IBM Plex Sans";
   font-size: 20px;
   font-weight: 400;
   line-height: 40px;
@@ -60,10 +60,11 @@ h3 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
+  padding: 0;
+  margin: 0 auto;
 }
 
 .developer-category {
-  float: left;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -82,7 +83,7 @@ h3 {
 .developer-category-name {
   width: 100%;
   color: rgb(45, 54, 64);
-  font-family: Catamaran;
+  font-family: "Catamaran";
   font-size: 20px;
   font-weight: 700;
   line-height: 33px;
@@ -94,7 +95,7 @@ h3 {
 .developer-position {
   width: 100%;
   color: rgb(75, 79, 82);
-  font-family: Catamaran;
+  font-family: "Catamaran";
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -108,7 +109,6 @@ h3 {
   gap: 3px;
   justify-content: center;
   margin-top: 10px;
-  clear: both;
 }
 
 .technology-class img {
