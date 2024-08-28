@@ -8,14 +8,14 @@
 }
 
 html {
-        background-image: url(img/Stranger_things_background.jpg);
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+    background-image: url(img/Stranger_things_background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     text-align: center;
 }
 
@@ -34,8 +34,8 @@ body {
     border-radius: 15px;
     overflow: auto;
 }
+
 .stranger-genre {
-    text-align: left;
     position: relative;
     bottom: 5px;
     color: rgb(255, 255, 255);
@@ -44,8 +44,21 @@ body {
     font-weight: 22px;
     line-height: 80px;
     letter-spacing: -0.5px;
-    right: 190px;
+    right: 460px;
 }
+.stranger-description {
+    position: relative;
+    bottom: 5px;
+    color: rgb(255, 255, 255);
+    color: rgb(167, 166, 166);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
 h1 {
     text-align: left;
     position: relative;
@@ -56,7 +69,7 @@ h1 {
     font-weight: 400;
     line-height: 80px;
     letter-spacing: -0.5px;
-    right: 190px;
+    right: 440px;
 }
 
 h3 {
@@ -72,24 +85,40 @@ h3 {
     letter-spacing: 0px;
     text-align: left;
 }
-.Netflix-img{
-position: relative;   
-height: 45px;
-right: 180px;
-bottom: 70px;
+
+.Netflix-img {
+    position: relative;
+    height: 45px;
+    right: 500px;
+    bottom: 70px;
 }
-.date{
+
+.date {
     position: relative;
     text-align: left;
     color: rgb(251, 250, 252);
     font-family: IBM Plex Sans;
     bottom: 100px;
+    right: 350px;
+}
+.Popular-Films{
+    position: relative;
+    width: 100%;
+    max-width: 695px;
+    height: 80px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 144.52%;
+    letter-spacing: 13.5%;
+    text-align: left;
 }
 .movie-container {
-position: relative;
+    position: relative;
     justify-content: center;
     top: 200px;
-
+    right: 150px;
 }
 
 .movie-category-wrapper {
@@ -102,5 +131,4 @@ position: relative;
     height: auto;
     border-radius: 12px;
 }
-
 
