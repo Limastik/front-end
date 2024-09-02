@@ -47,14 +47,14 @@ body {
 }
 .Age-raiting {
 position: relative;
-left: 610px;
-top: 350px;
+left: 850px;
+top: 450px;
 z-index: 2;
 
 }
 .stranger-description {
     position: relative;
-    bottom: 105px;
+    bottom: 5px;
     color: rgb(167, 166, 166);
     font-family: Inter;
     font-size: 18px;
@@ -77,8 +77,8 @@ z-index: 2;
   
   .stars{
 position: relative;
-right:510px;
-top: 100px;
+right:530px;
+top: 110px;
 
   }
   .movie-info span {
@@ -151,30 +151,12 @@ h3 {
     line-height: 144.52%;
     letter-spacing: 13.5%;
     text-align: left;
-    top: 10px;
-}
-.film-button{
-position: relative;
-right: 450px;
-}
-
-.inscription-button{
-    position: relative;
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 22px;
-    font-weight: 500;
-    line-height: 141.52%;
-    letter-spacing: 0%;
-    text-align: left;
-    bottom: 40px;
-    left: 50px;
-
+    top: 30px;
 }
 .movie-container {
     position: relative;
     justify-content: center;
-    bottom: 20px;
+    top: 50px;
     right: 175px;
 }
 
