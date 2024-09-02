@@ -22,14 +22,13 @@ html {
 body {
     text-align: start;
     margin-top: 90px;
-    margin-left: 25px;
-    padding: 0px 30px;
+    margin-left: 180px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 1500px;
-    min-width: 350px;
-    min-height: 550px;
+    max-width: 900px;
+    min-width: 250px;
+    min-height: 450px;
     width: 1200px;
     border-radius: 15px;
     overflow: auto;
@@ -41,24 +40,63 @@ body {
     color: rgb(255, 255, 255);
     font-family: IBM Plex Sans;
     font-size: 24px;
-    font-weight: 22px;
+    font-weight: 23px;
     line-height: 80px;
     letter-spacing: -0.5px;
-    right: 460px;
+    right: 450px;
+}
+.Age-raiting {
+position: relative;
+left: 610px;
+top: 350px;
+z-index: 2;
+
 }
 .stranger-description {
     position: relative;
-    bottom: 5px;
-    color: rgb(255, 255, 255);
+    bottom: 105px;
     color: rgb(167, 166, 166);
     font-family: Inter;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 29px;
+    font-size: 18px;
+    font-weight: 10px;
     letter-spacing: 0%;
-    text-align: left;
+    right: 350px;
 }
+.stranger-description p {
+    width: 500px; 
+    line-height: 1.5; 
+    margin: 0 auto;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+  }
+  .movie-info {
+    display: flex; 
+    gap: 20px; 
+    align-items: center; 
+  }
+  
+  .stars{
+position: relative;
+right:510px;
+top: 100px;
 
+  }
+  .movie-info span {
+    position: relative;
+    color: rgb(167, 166, 166);
+    font-family: Inter;
+    font-size: 18px;
+    letter-spacing: 0%;
+    right: 390px;
+    bottom: 20px;
+    
+  }
+  
+  .movie-info span strong {
+    color: rgb(255, 255, 255);
+    font-weight: bold; 
+  }
+  
 h1 {
     text-align: left;
     position: relative;
@@ -113,12 +151,31 @@ h3 {
     line-height: 144.52%;
     letter-spacing: 13.5%;
     text-align: left;
+    top: 10px;
+}
+.film-button{
+position: relative;
+right: 450px;
+}
+
+.inscription-button{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 141.52%;
+    letter-spacing: 0%;
+    text-align: left;
+    bottom: 40px;
+    left: 50px;
+
 }
 .movie-container {
     position: relative;
     justify-content: center;
-    top: 200px;
-    right: 150px;
+    bottom: 20px;
+    right: 175px;
 }
 
 .movie-category-wrapper {
