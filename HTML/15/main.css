@@ -17,12 +17,6 @@ html {
 }
 
 .styled-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow-x: auto;
-  margin-left: 20px;
-  max-height: 890px;
   box-sizing: border-box;
 }
 
@@ -75,7 +69,7 @@ html {
   line-height: 30px;
   letter-spacing: -0.5px;
   margin-left: 20px;
-  margin-top: 10px; /* Додано верхній відступ */
+  margin-top: 10px; 
 }
 
 .genre-item {
@@ -139,7 +133,8 @@ h1 {
 .buttons-container {
   display: flex;
   gap: 60px;
-  margin-left: -800px;
+  padding-top: 20px;
+  /* margin-left: -800px; */
 }
 
 .red-button,
@@ -177,8 +172,8 @@ h1 {
   justify-content: flex-start;
 }
 .movie-container {
-  display: flex;
-  justify-content: flex-start;
+  /* display: flex;
+  justify-content: flex-start; */
   width: 1200px;
   gap: 20px;
   margin-top: 50px;
@@ -193,4 +188,39 @@ h1 {
   width: 120px;
   height: 140px;
   border-radius: 12px;
+}
+
+.Popular-Films{
+  text-align: left;
+  color: white;
+}
+
+.nav-films{
+  display: flex;
+  width: 680px;
+  margin-bottom: 20px;
+}
+
+.film-arrows {
+  margin-left: auto;
+}
+.age-rating {
+  position: fixed;
+    right: 0;
+    margin-top: 230px;
+}
+
+#main-container {
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.age {
+  position: relative;
+    top: -51px;
+    right: 30px;
+    color: white;
+    font-size: 30px;
 }
