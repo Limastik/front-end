@@ -139,14 +139,6 @@ html {
   }
 }
 
-@media (max-width: 480px) {
-  .shoe-images {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
 .shoe-image {
   max-width: 200px;
   width: 100%;
@@ -240,18 +232,38 @@ line-height: 40px;
 letter-spacing: 0%;
 text-align: left;
 margin-bottom: 10px;
+font-family: "Inter", sans-serif;
 }
 
 .products {
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
+  display: inline-block;
+    overflow: auto;
+    white-space: nowrap;
+}
+section ::-webkit-scrollbar {
+  width: 5px;
+}
+section ::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+section ::-webkit-scrollbar-track {
+  background: #E1E1E1; 
 }
 
 .product-item {
   width: 23%;
   text-align: center;
   margin-bottom: 20px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.product-item span {
+  font-family: "Inter", sans-serif;
 }
 
 .product-item img {
@@ -362,4 +374,72 @@ footer {
 
 .social-links li {
   margin-right: 10px;
+}
+
+.header-mobile {
+  width: 100%;
+  padding: 20px 20px;
+  display: none;
+}
+.shop-active-mobile {
+  width: 70%;
+  text-align: center;
+}
+.shop-active-mobile a {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 60px;
+  text-decoration: none;
+}
+.menu-icon, .icons-mobile {
+  width: 15%;
+}
+
+@media (max-width: 480px) {
+  .header{
+    display: none;
+  }
+  .header-mobile{
+    display: flex;
+  }
+  .shoe-images {
+    flex-direction: column;
+    position: absolute;
+    scale: 0.4;
+    top: -170px;
+  }
+  .main{
+    display: block;
+  }
+  .text-content{
+    display: block;
+    margin-right: 0;
+    max-width: 100%;
+    text-align: center;
+    padding-top: 310px;
+  }
+  .text-content h1 {
+    font-size: 3rem;
+  }
+  .text-content p {
+    font-size: 1.3rem;
+  }
+  .product-item {
+    width: 100%;
+  }
+  .products {
+    max-width: 100%;
+    height: auto;
+  }
+  .category {
+    flex-direction: column;
+  }
+  .category-item {
+    width: 100%;
+  }
+  .footer-section {
+    justify-content: start;
+  }
+
 }

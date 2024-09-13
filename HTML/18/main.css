@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    color: #d3206b;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Відступ між пунктами меню */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #888;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #d3206b;
+}
+
+.button {
+    background-color: #3a6b35;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: #2f5a28;
+}
+
+main {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    gap: 40px; /* Відступ між текстовим і зображенням */
+    max-width: 1200px;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.text-content h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px; /* Відступ під заголовком */
+}
+
+.highlight {
+    color: #d3206b;
+    font-weight: bold;
+}
+
+.text-content p {
+    margin: 20px 0; /* Вертикальний відступ між абзацами */
+    color: #666;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.Snap {
+    position: absolute;
+    margin-left: 5px;
+    bottom: 250px;
+}
+
+.search-section {
+    margin-top: 10px; /* Відступ зверху секції пошуку */
+}
+
+.search-section label {
+    display: block;
+    margin-bottom: 180px; /* Відступ під міткою */
+    color: #333;
+    font-size: 14px;
+}
+
+.panel-container {
+    background-color: #3e704d;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    position: relative; /* Додає контекст для z-index */
+    z-index: 10; /* Перекриває інші елементи з меншим z-index */
+    width: 180%; /* Змінюй це значення для потрібної ширини */
+    max-width: 1200px; /* Максимальна ширина для великого екрану */
+    margin: 0 auto; /* Центрує панель по горизонталі */
+}
+
+
+
+.dropdowns select {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-button {
+    background-color: #e91e63;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #c2185b;
+}
+
+.image-content {
+    flex: 1;
+    text-align: center;
+    position: relative; /* Додає контекст для z-index */
+}
+
+.image-content img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative; /* Додає контекст для z-index */
+    z-index: 1; /* Зображення під панеллю */
+}
+
+
+.footer {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer-content {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.arrow-down {
+    margin-top: 5px;
+}
