@@ -62,7 +62,7 @@ main {
 .main-content {
     display: flex;
     align-items: center;
-    gap: 40px; /* Відступ між текстовим і зображенням */
+    gap: 40px; 
     max-width: 1200px;
 }
 
@@ -73,7 +73,7 @@ main {
 .text-content h1 {
     font-size: 36px;
     color: #333;
-    margin-bottom: 20px; /* Відступ під заголовком */
+    margin-bottom: 20px; 
 }
 
 .highlight {
@@ -91,7 +91,7 @@ main {
 .Snap {
     position: absolute;
     margin-left: 5px;
-    bottom: 250px;
+    bottom: 180px;
 }
 
 .search-section {
@@ -107,18 +107,17 @@ main {
 
 .panel-container {
     background-color: #3e704d;
-    padding: 15px;
+    padding: 20px;
     border-radius: 10px;
     display: flex;
-    gap: 10px;
+    gap: 15px;
     align-items: center;
-    position: relative; /* Додає контекст для z-index */
-    z-index: 10; /* Перекриває інші елементи з меншим z-index */
-    width: 180%; /* Змінюй це значення для потрібної ширини */
-    max-width: 1200px; /* Максимальна ширина для великого екрану */
-    margin: 0 auto; /* Центрує панель по горизонталі */
+    width: 70%; /* Ширина панелі */
+    position: absolute; /* Робимо панель абсолютно позиціонованою */
+    left: 50%;
+    transform: translateX(-50%); /* Центруємо панель */
+    z-index: 2; /* Панель поверх зображення */
 }
-
 
 
 .dropdowns select {
@@ -134,11 +133,13 @@ main {
     background-color: #e91e63;
     color: #fff;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
+    margin-left: auto; /* Додає автоматичний відступ для вирівнювання кнопки вправо */
 }
+
 
 .search-button:hover {
     background-color: #c2185b;
