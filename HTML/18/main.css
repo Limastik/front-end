@@ -12,9 +12,14 @@ header {
 }
 
 .logo {
+    font-family: "Open Sans";
     font-size: 24px;
     color: #d3206b;
     font-weight: bold;
+}
+
+header nav {
+    width: 80%;
 }
 
 nav ul {
@@ -22,7 +27,8 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 20px; /* Відступ між пунктами меню */
+    justify-content: end;
+    gap: 20px;
 }
 
 nav ul li {
@@ -33,9 +39,11 @@ nav ul li a {
     text-decoration: none;
     color: #888;
     font-size: 18px;
+    font-family: "Avenir";
+    font-weight: 400;
 }
 
-nav ul li a:hover {
+nav ul li a:hover, nav ul li .selected {
     color: #d3206b;
 }
 
@@ -46,6 +54,7 @@ nav ul li a:hover {
     text-decoration: none;
     border-radius: 5px;
     font-size: 18px;
+    font-family: "Avenir";
 }
 
 .button:hover {
@@ -62,7 +71,7 @@ main {
 .main-content {
     display: flex;
     align-items: center;
-    gap: 40px; 
+    gap: 40px;
     max-width: 1200px;
 }
 
@@ -73,7 +82,8 @@ main {
 .text-content h1 {
     font-size: 36px;
     color: #333;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
+    font-family: "Avenir";
 }
 
 .highlight {
@@ -81,26 +91,31 @@ main {
     font-weight: bold;
 }
 
+#panel-text {
+    margin: 10rem 0 1rem 0;
+}
+
 .text-content p {
-    margin: 20px 0; /* Вертикальний відступ між абзацами */
+    margin: 20px 0;
     color: #666;
     line-height: 1.6;
     font-size: 16px;
+    font-family: "Avenir";
 }
 
 .Snap {
     position: absolute;
     margin-left: 5px;
-    bottom: 180px;
+    top: 30rem;
 }
 
 .search-section {
-    margin-top: 10px; /* Відступ зверху секції пошуку */
+    margin-top: 10px;
 }
 
 .search-section label {
     display: block;
-    margin-bottom: 180px; /* Відступ під міткою */
+    margin-bottom: 180px;
     color: #333;
     font-size: 14px;
 }
@@ -112,24 +127,32 @@ main {
     display: flex;
     gap: 15px;
     align-items: center;
-    width: 70%; /* Ширина панелі */
-    position: absolute; /* Робимо панель абсолютно позиціонованою */
+    width: 70%;
+    position: absolute;
     left: 50%;
-    transform: translateX(-50%); /* Центруємо панель */
-    z-index: 2; /* Панель поверх зображення */
+    transform: translateX(-50%);
+    z-index: 2;
+    max-width: 1165px;
 }
 
+.dropdowns {
+    width: 83%;
+}
 
 .dropdowns select {
-    padding: 10px;
+    padding: 10px 0;
     font-size: 16px;
-    background-color: #fff;
-    color: #333;
+    color: white;
     border: none;
-    border-radius: 5px;
+    font-family: "Avenir";
+    background-color: unset;
+    border-bottom: solid 2px white;
+    min-width: 25%;
+    margin-right: 4rem;
 }
 
 .search-button {
+    font-family: "Avenir";
     background-color: #e91e63;
     color: #fff;
     border: none;
@@ -137,9 +160,8 @@ main {
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-    margin-left: auto; /* Додає автоматичний відступ для вирівнювання кнопки вправо */
+    margin-left: auto;
 }
-
 
 .search-button:hover {
     background-color: #c2185b;
@@ -148,18 +170,16 @@ main {
 .image-content {
     flex: 1;
     text-align: center;
-    position: relative; /* Додає контекст для z-index */
+    position: relative;
 }
 
 .image-content img {
     width: 100%;
-    max-width: 500px;
     border-radius: 50%;
     object-fit: cover;
-    position: relative; /* Додає контекст для z-index */
-    z-index: 1; /* Зображення під панеллю */
+    position: relative;
+    z-index: 1;
 }
-
 
 .footer {
     width: 100%;
@@ -181,6 +201,7 @@ main {
     margin: 0;
     font-size: 16px;
     color: #333;
+    font-family: "Avenir";
 }
 
 .arrow-down {

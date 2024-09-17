@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href='fonts/Avenir/stylesheet.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="main.css" />
     <title>Header Example</title>
   </head>
@@ -11,7 +13,7 @@
       <div class="logo">Travelers</div>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="#" class="selected">Home</a></li>
           <li><a href="#">Destinations</a></li>
           <li><a href="#">Gallery</a></li>
           <li><a href="#">About Us</a></li>
@@ -32,7 +34,7 @@
             have luxurious destinations around the world.
           </p>
           <div class="panel-container-wrapper">
-            <p class="panel-text">Where will we take you?</p>
+            <p id="panel-text" class="panel-text">Where will we take you?</p>
             <div class="panel-container">
                 <div class="dropdowns">
                     <select>
