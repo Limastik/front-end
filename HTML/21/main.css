@@ -1,0 +1,328 @@
+body {
+    font-family: 'Avenir', sans-serif;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  .header-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 2px solid gray;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.menu a.active {
+    color: rgb(120, 184, 243);
+    font-weight: bold;
+}
+.story {  
+  text-align: center;  
+  padding: 50px;  
+  max-width: 800px;  
+  margin: auto;  
+}  
+.Our-story-description{
+text-align: left;
+}
+h2 {  
+  font-size: 2.5em;  
+  margin-bottom: 20px;  
+}  
+.blue-underline {
+  display: inline-block;
+  border-bottom: 3px solid #00AEEF; 
+  padding-bottom: 3rem; 
+}
+.content {  
+    display: flex;  
+    justify-content: flex-start; /* Вирівнювання до лівого краю */  
+    margin-top: 30px;  
+}  
+.capabilities {
+  padding: 50px 0;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.underline {
+  width: 50px;
+  border-bottom: 3px solid #00AEEF;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #666;
+  margin-left: 20px;
+  flex-grow: 1;
+}
+
+.all-services-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #00aaff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  font-size: 16px;
+}
+
+.all-services-btn:hover {
+  background-color: #0088cc;
+}
+
+.text {  
+    width: 60%; /* Ширина текстового блоку */  
+    padding-right: 20px; /* Відступ праворуч */  
+    text-align: left; /* Вирівнювання тексту до лівого краю */  
+}  
+
+.text h1 {  
+    font-size: 24px; /* Розмір заголовка */  
+    font-weight: bold; /* Жирний шрифт */  
+    margin-bottom: 10px; /* Відступ знизу */  
+}  
+
+.text h2 {  
+    font-size: 20px; /* Розмір підзаголовка */  
+    font-weight: bold; /* Жирний шрифт */  
+    color: #333; /* Колір тексту */  
+}  
+
+.text p {  
+    font-size: 16px; /* Розмір основного тексту */  
+    line-height: 1.5; /* Висота рядка */  
+    color: #555; /* Колір тексту */  
+}  
+
+.services {  
+    display: flex; /* Залишаємо flex для горизонтального розташування */  
+    justify-content: flex-end; /* Вирівнювання зображень праворуч */  
+}  
+
+.service {  
+    position: relative;  
+    width: 150px; /* Ширина зображень */  
+    height: 200px; /* Висота зображень */  
+    margin-left: 20px; /* Відступ між зображеннями */  
+    overflow: hidden; /* Сховати частини зображення, що виходять за межі */  
+}  
+
+.service img {  
+    width: 100%;  
+    height: 100%; /* Задати висоту 100% по відношенню до контейнера */  
+    object-fit: cover; /* Збереження пропорцій зображення */  
+}  
+
+.service h3 {  
+    position: absolute;  
+    top: 50%;  
+    left: 50%;  
+    transform: translate(-50%, -50%);  
+    color: white;  
+    font-size: 1.5em;  
+    text-align: center;  
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);  
+}
+.newsletter {  
+  text-align: center; /* Центрування тексту */  
+  margin-top: 20px; /* Відступ зверху */  
+}  
+
+.newsletter h3 {  
+  margin-bottom: 10px; /* Відступ знизу заголовка */  
+  color: white; /* Білий текст */  
+}  
+
+.newsletter form {  
+  display: inline-flex; /* Гнучке розташування для полів вводу */  
+}  
+
+.newsletter input[type="email"] {  
+  padding: 10px; /* Внутрішні відступи */  
+  border: none; /* Без рамки */  
+  border-radius: 5px 0 0 5px; /* Закруглені кути зліва */  
+  outline: none; /* Без обведення */  
+}  
+
+.newsletter button {  
+  padding: 10px 20px; /* Внутрішні відступи */  
+  background-color: #00aaff; /* Колір кнопки */  
+  color: white; /* Білий текст */  
+  border: none; /* Без рамки */  
+  border-radius: 0 5px 5px 0; /* Закруглені кути справа */  
+  cursor: pointer; /* Курсор при наведенні */  
+}  
+
+.newsletter button:hover {  
+  background-color: #0088cc; /* Темніший колір при наведенні */  
+}
+.capabilities {
+  padding: 50px 0;
+  background-color: white;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.description {
+  margin-bottom: 40px;
+  color: #666;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 30%;
+  text-align: center;
+}
+
+.card img {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.card p {
+  color: #666;
+  font-size: 14px;
+}
+
+.all-services-btn {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 10px 20px;
+  background-color: #00aaff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.all-services-btn:hover {
+  background-color: #0088cc;
+}
+
+@media (max-width: 768px) {
+  .cards {
+      flex-direction: column;
+  }
+
+  .card {
+      width: 100%;
+  }
+}
+footer {  
+  background-color: #2c3e50; /* Темний фон */  
+  color: white; /* Білий текст */  
+  padding: 20px 0; /* Внутрішні відступи */  
+}  
+
+.footer-container {  
+  display: flex; /* Гнучке розташування */  
+  justify-content: space-between; /* Простір між елементами */  
+  max-width: 1200px; /* Максимальна ширина футера */  
+  margin: 0 auto; /* Центрування */  
+  padding: 0 20px; /* Внутрішні відступи */  
+}  
+
+.company {  
+  width: 30%; /* Ширина блоку компанії */  
+}  
+
+.company .logo {  
+  max-width: 100%; /* Максимальна ширина логотипу */  
+  height: auto; /* Автоматична висота */  
+}  
+
+.links, .contact {  
+  width: 30%; /* Ширина блоків з посиланнями та контактами */  
+}  
+
+.links h3, .contact h3 {  
+  margin-bottom: 10px; /* Відступ знизу заголовків */  
+}  
+
+.links ul {  
+  list-style: none; /* Без маркерів */  
+  padding: 0; /* Без відступів */  
+}  
+
+.links li {  
+  margin-bottom: 5px; /* Відступ між пунктами */  
+}  
+
+.links a {  
+  color: white; /* Білий текст для посилань */  
+  text-decoration: none; /* Без підкреслення */  
+}  
+
+.links a:hover {  
+  text-decoration: underline; /* Підкреслення при наведенні */  
+}  
+
+.footer-bottom {  
+  text-align: center; /* Центрування тексту */  
+  margin-top: 20px; /* Відступ зверху */  
+}
