@@ -17,7 +17,7 @@ body {
     align-items: center;
     padding: 10px 20px;
     background-color: white;
-    border-bottom: 2px solid gray;
+    /* border-bottom: 2px solid gray; */
 }
 
 .logo {
@@ -34,6 +34,7 @@ body {
     text-decoration: none;
     color: black;
     font-size: 16px;
+    font-family: "Open Sans";
 }
 
 .menu a.active {
@@ -46,8 +47,16 @@ body {
   max-width: 800px;  
   margin: auto;  
 }  
-.Our-story-description{
-text-align: left;
+.story p {
+  font-family: "Open Sans";
+}
+#Our-story-description{
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+}
+#Our-story-description span {
+  color: #0088cc;
 }
 h2 {  
   font-size: 2.5em;  
@@ -56,7 +65,8 @@ h2 {
 .blue-underline {
   display: inline-block;
   border-bottom: 3px solid #00AEEF; 
-  padding-bottom: 3rem; 
+  padding-bottom: 3rem;
+  font-family: "Open Sans";
 }
 .content {  
     display: flex;  
@@ -70,6 +80,9 @@ h2 {
   justify-content: space-between;
   align-items: center;
 }
+.capabilities h2 {
+  font-family: "Open Sans";
+}
 
 .container {
   display: flex;
@@ -77,7 +90,9 @@ h2 {
   align-items: center;
   width: 100%;
 }
-
+.text {
+  margin-top: -20px;
+}
 h2 {
   font-size: 28px;
   margin-bottom: 10px;
@@ -87,13 +102,15 @@ h2 {
 .underline {
   width: 50px;
   border-bottom: 3px solid #00AEEF;
-  margin-bottom: 10px;
+  position: absolute;
+  margin-bottom: -75px;
 }
 
 .description {
   color: #666;
   margin-left: 20px;
   flex-grow: 1;
+  font-family: "Open Sans";
 }
 
 .all-services-btn {
@@ -105,6 +122,8 @@ h2 {
   border-radius: 5px;
   transition: background-color 0.3s;
   font-size: 16px;
+  font-family: "Open Sans";
+  border-radius: 0px;
 }
 
 .all-services-btn:hover {
@@ -214,14 +233,22 @@ h2 {
 }
 
 .description {
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   color: #666;
+  text-align: left;
+  padding-left: 2%;
+  padding-top: 35px;
 }
 
 .cards {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 20px;
+}
+.cards-container{
+  width: 1080px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .card {
@@ -230,7 +257,10 @@ h2 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   width: 30%;
-  text-align: center;
+  text-align: left;
+  border: 1px solid #E6E6E6;
+  border-radius: 0;
+  max-width: 290px;
 }
 
 .card img {
@@ -258,10 +288,70 @@ h2 {
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s;
+  border-radius: 0px;
+}
+
+.get-in-touch-section {
+  margin-bottom: -5px;
+  margin-top: 100px;
+  text-align: center;
+}
+.get-in-touch-section h1 {
+  color: #333;
+}
+.get-in-touch-section .all-services-btn {
+  margin-top: 0;
+}
+.get-in-touch-section img {
+  width: 100%;
 }
 
 .all-services-btn:hover {
   background-color: #0088cc;
+}
+.footer-container button, .footer-container h2, .footer-container p, .login-container span, .links a,
+.footer-bottom p, .login-container span, .company p, .contact h3, .contact p, form {
+  font-family: "Open Sans";
+}
+.login-container {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.login-container form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-container span {
+  font-weight: 600;
+  font-size: 24px;
+}
+.login-container input {
+  height: 38px;
+  width: 250px;
+  border: 0;
+  padding-left: 20px;
+  margin-left: 40px;
+}
+.login-container button {
+  height: 40px;
+  border: 0;
+  line-height: 0;
+  color: white;
+  background-color: #00AAFF;
+  font-weight: 600;
+  padding: 0 40px;
+}
+.contact a {
+  color: white;
+  text-decoration: none;
+}
+.company p {
+  line-height: initial;
+}
+.links {
+  display: flex;
+    justify-content: space-around;
 }
 
 @media (max-width: 768px) {

@@ -1,0 +1,185 @@
+/* navbar */
+.top-menu {
+  background-color: #668E68;
+  width: 100%;
+}
+.top-menu a {
+  color: white;
+  font-family: "Yu Gothic";
+}
+#navbarNav {
+  justify-content: end;
+}
+
+
+/* header */
+header {
+  background-image: url("img/header.png");
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+  line-height: 450px;
+  color: white;
+  font-family: "Shadows Into Light";
+  font-size: 6em;
+  text-shadow: 1px 1px 5px black;
+}
+
+
+/* Menu */
+.section-header, .section-description {
+  font-family: "Shadows Into Light";
+  text-align: center;
+}
+
+.section-header {
+  margin-bottom: 0;
+  margin-top: 1.5em;
+}
+
+.menu-row {
+  margin-top: 45px;
+}
+
+.menu-item {
+  height: 300px;
+  width: 300px;
+  border: 7px solid #81613B;
+  border-radius: 150px;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  align-items: end;
+  text-align: center;
+  font-family: "Yu Gothic";
+  margin-bottom: 30px;
+}
+
+#menu-drinks { 
+  background-image: url("img/drink.jpeg");
+  background-position: left; 
+}
+#menu-cakes {
+   background-image: url("img/cakes.jpeg"); 
+  }
+#menu-food { 
+  background-image: url("img/food.jpeg"); 
+}
+
+.menu-item span {
+  line-height: 85px;
+  font-size: 1.5em;
+  font-family: "Georgia";
+}
+
+.transparent-bg {
+  width: 100%;
+  height: 91px;
+  background-color:rgba(255, 255, 255, 0.75);
+}
+
+.default-button{
+  display: block;
+  text-align: center;
+  background-color: #668E68;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 8px 0;
+  width: 160px;
+  margin: 40px auto;
+}
+
+
+/* About */
+.about {
+  height: 600px;
+  width: 100%;
+  background-image: url("img/about.png");
+}
+.about h1, .about p {
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+.about h1 {
+  padding-top: 160px;
+}
+.about p {
+  text-align: center;
+  font-family: "Yu Gothic";
+  font-size: 1.1em;
+}
+
+/* News */
+.news {
+  background-color: rgba(129, 97, 59, 0.2);
+  padding-bottom: 60px;
+}
+
+.news .container {
+  margin: 0 auto;
+  margin-top: 60px;
+  background-color: white;
+  border: 1px solid #668E68;
+  padding: 20px;
+}
+
+.news .container p {
+  font-family: "Yu Gothic";
+  margin: 0;
+}
+
+.news h1 {
+  margin: 0;
+  padding-top: 100px;
+  font-size: 2.5em;
+}
+
+
+/* Footer */
+footer {
+  background-color: black;
+  width: 100%;
+  height: 180px;
+  padding-top: 20px;
+}
+
+.contact-info {
+  color: white;
+  font-family: "Yu Gothic";
+}
+
+.rights-info {
+  color: white;
+  font-family: "Georgia";
+}
+
+.go-up-arrow{
+  position: absolute;
+  right: 10px;
+  margin-top: 30px;
+}
+
+
+/* Media */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 3em;
+  }
+  footer {
+    height: 280px;
+  }
+  .go-up-arrow {
+    margin-top: 90px;
+  }
+  .contact-info, .rights-info {
+    text-align: center;
+  }
+}
