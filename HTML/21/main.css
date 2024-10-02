@@ -355,12 +355,39 @@ h2 {
 }
 
 @media (max-width: 768px) {
-  .cards {
+  .cards-container, .services, .content, .container, .navbar {
       flex-direction: column;
   }
 
   .card {
       width: 100%;
+      margin-bottom: 35px;
+  }
+
+  .services, .cards-container {
+    justify-content: center;
+    align-items: center;
+  }
+  .service {
+    width: 100%;
+    height: auto;
+  }
+  .text {
+    width: 100%;
+  }
+  .menu {
+    padding-top: 15px;
+  }
+  .login-container span {
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .login-container input {
+    margin-left: 0;
+  }
+  .login-container form {
+    flex-wrap: wrap;
   }
 }
 footer {  
